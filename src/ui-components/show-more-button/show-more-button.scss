@@ -1,0 +1,27 @@
+.morebtn-body {
+  width: 123px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #111024;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px 20px 0px;
+  transition: all ease 0.4s;
+}
+
+.morebtn-body:hover {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  transition: all ease 0.4s;
+}
+
+.morebtn-body:active {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 800;
+  transition: all ease 0.8s;
+}
