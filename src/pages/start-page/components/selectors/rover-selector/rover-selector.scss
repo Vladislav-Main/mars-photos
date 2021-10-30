@@ -20,7 +20,7 @@
     height: 25px;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 1;
     transition: all ease-in-out 0.2s;
   }
   &__active::after {
@@ -34,7 +34,7 @@
     height: 25px;
     top: 0;
     right: 0;
-    z-index: 2;
+    z-index: 1;
     transition: all ease-in-out 0.2s;
   }
 }
@@ -67,7 +67,7 @@
     height: 25px;
     bottom: -50px;
     left: 0;
-    z-index: 2;
+    z-index: 1;
     transition: all ease-in-out 0.2s;
   }
   &__active::after {
@@ -81,7 +81,7 @@
     height: 25px;
     bottom: -50px;
     right: 0;
-    z-index: 2;
+    z-index: 1;
     transition: all ease-in-out 0.2s;
   }
 }
@@ -114,15 +114,10 @@
   }
 
   .rover-title {
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
-      'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     padding: 10px 0px 0px 0px;
 
     &__active {
-      font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
       font-size: 17px;
       padding: 10px 0px 0px 0px;
     }

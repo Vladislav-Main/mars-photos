@@ -1,7 +1,9 @@
 .header-block {
+  display: flex;
+  justify-content: space-between;
   padding: 23px 0px 0px 0px;
   &__title-block {
-    width: 968px;
+    width: 100%;
     min-width: 500px;
     h2 {
       font-size: 20px;
@@ -17,6 +19,7 @@
 
 @media (max-width: 800px) {
   .header-block {
+    justify-content: flex-start;
     padding: 23px 0px 0px 0px;
     &__title-block {
       width: 290px;
@@ -29,8 +32,8 @@
       }
     }
     &__logo-block {
-      height: 26.8px;
-      width: 40.46px;
+      height: 24px;
+      width: 35px;
       padding: 0px 0px 0px 10px;
     }
   }
