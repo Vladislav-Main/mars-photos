@@ -17,11 +17,14 @@ import { ShowMoreButton } from '../../ui-components/show-more-button/ShowMoreBut
 import { Loader } from './components/loader/Loader';
 
 export const StartPage = () => {
+  const ua = navigator.userAgent;
+  const initialValue = ua.includes('iPhone') || ua.includes('Android') ? 2 : 6;
+
   const dispatch = useDispatch();
   const [rover, setRover] = useState('');
   const [sol, setSol] = useState(null);
   const [camera, setCamera] = useState('');
-  const [value, setValue] = useState(6);
+  const [value, setValue] = useState(initialValue);
 
   const data = useSelector(selectAllPhotos);
 
@@ -81,7 +84,7 @@ export const StartPage = () => {
     if (rover && sol && camera) {
       dispatch(getPhotos({ rover, sol, camera }));
     }
-    setValue(6);
+    setValue(initialValue);
   }, [rover, sol, camera, dispatch]);
 
   return (

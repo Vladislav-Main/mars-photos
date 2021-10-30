@@ -134,12 +134,17 @@
   }
 
   .rover-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
+      'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     color: #ffffff;
     padding: 10px 0px 0px 0px;
     transition: all ease-in-out 0.2s;
 
     &__active {
+      font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
       font-size: 16px;
       color: #ffffff;
       padding: 10px 0px 0px 0px;

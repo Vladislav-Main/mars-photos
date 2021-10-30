@@ -7,7 +7,7 @@ export const SolButton = ({ state, setState, name }) => {
     <button
       onClick={name === '+' ? () => setState(++state) : () => setState(--state)}
       className="solbtn-body"
-      disabled={name === '-' && (state === '' || state === 0) ? true : false}
+      disabled={name === '-' && (state === '' || state <= 1) ? true : false}
     >
       {name}
     </button>
