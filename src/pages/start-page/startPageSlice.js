@@ -10,7 +10,7 @@ export const getPhotos = createAsyncThunk(
   async ({ rover, sol, camera }) => {
     try {
       const response = await axios.get(
-        `${process.env.REACT_APP_API_URL}/${rover}/photos?sol=${sol}&camera=${camera}&perPage='6'&api_key=${process.env.REACT_APP_API_KEY}`
+        `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${sol}&camera=${camera}&perPage='6'&api_key=lmLFPvrs2bLT6sQXtcIQXYETJ7eSK8pfIJpYF98b`
       );
       return response.data;
     } catch (e) {
