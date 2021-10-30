@@ -23,6 +23,7 @@ export const SolSelector = ({ state, setState }) => {
         <div className="sol-input">
           <input
             type="number"
+            value={state}
             min="1"
             placeholder="enter sol here..."
             className="sol-input__body"

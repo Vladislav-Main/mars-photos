@@ -137,46 +137,24 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
       'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    color: #ffffff;
     padding: 10px 0px 0px 0px;
-    transition: all ease-in-out 0.2s;
 
     &__active {
       font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
       font-size: 16px;
-      color: #ffffff;
       padding: 10px 0px 0px 0px;
-      transition: all ease-in-out 0.2s;
     }
     &__active::before {
-      display: block;
-      content: '';
-      position: absolute;
-      border: 2px solid #ffffff;
-      border-right-color: transparent;
-      border-top-color: transparent;
       width: 13px;
       height: 13px;
       bottom: -35px;
-      left: 0;
-      z-index: 2;
-      transition: all ease-in-out 0.2s;
     }
     &__active::after {
-      display: block;
-      content: '';
-      position: absolute;
-      border: 2px solid #ffffff;
-      border-left-color: transparent;
-      border-top-color: transparent;
       width: 13px;
       height: 13px;
       bottom: -35px;
-      right: 0;
-      z-index: 2;
-      transition: all ease-in-out 0.2s;
     }
   }
 }
