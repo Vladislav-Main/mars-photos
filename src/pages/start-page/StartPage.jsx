@@ -85,7 +85,7 @@ export const StartPage = () => {
       dispatch(getPhotos({ rover, sol, camera }));
     }
     setValue(initialValue);
-  }, [rover, sol, camera, dispatch]);
+  }, [initialValue, rover, sol, camera, dispatch]);
 
   return (
     <div className="wrapper-body">
