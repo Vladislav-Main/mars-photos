@@ -99,32 +99,12 @@
       background: transparent;
     }
     &__active::before {
-      display: block;
-      content: '';
-      position: absolute;
-      border: 2px solid #ffffff;
-      border-right-color: transparent;
-      border-bottom-color: transparent;
       width: 13px;
       height: 13px;
-      top: 0;
-      left: 0;
-      z-index: 2;
-      transition: all ease-in-out 0.2s;
     }
     &__active::after {
-      display: block;
-      content: '';
-      position: absolute;
-      border: 2px solid #ffffff;
-      border-left-color: transparent;
-      border-bottom-color: transparent;
       width: 13px;
       height: 13px;
-      top: 0;
-      right: 0;
-      z-index: 2;
-      transition: all ease-in-out 0.2s;
     }
   }
 
@@ -136,14 +116,14 @@
   .rover-title {
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
       'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px 0px 0px 0px;
 
     &__active {
       font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
-      font-size: 16px;
+      font-size: 17px;
       padding: 10px 0px 0px 0px;
     }
     &__active::before {

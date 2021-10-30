@@ -41,7 +41,7 @@ export const StartPage = () => {
         { name: 'Navigation Camera', value: 'navcam' },
         { name: 'Panoramic Camera', value: 'pancam' },
         {
-          name: 'Miniature Thermal Emission Spectrometer (Mini-TES)',
+          name: 'Miniature Thermal Emission Spectrometer',
           value: 'minites',
         },
       ],
@@ -70,7 +70,7 @@ export const StartPage = () => {
         { name: 'Navigation Camera', value: 'navcam' },
         { name: 'Panoramic Camera', value: 'pancam' },
         {
-          name: 'Miniature Thermal Emission Spectrometer (Mini-TES)',
+          name: 'Miniature Thermal Emission Spectrometer',
           value: 'minites',
         },
       ],

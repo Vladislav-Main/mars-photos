@@ -4,7 +4,6 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-  transition: all ease-in-out 0.6s;
 }
 
 .camera-title {
@@ -12,7 +11,6 @@
   font-weight: 300;
   margin: -80px 0px 0px 0px;
   color: #a7a7a7;
-  transition: all ease-in-out 0.2s;
 }
 
 @media (max-width: 1130px) {
@@ -22,7 +20,6 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    transition: all ease-in-out 0.6s;
   }
 
   .camera-title {
@@ -30,7 +27,6 @@
     font-weight: 300;
     margin: 0px 0px 0px 0px;
     color: #a7a7a7;
-    transition: all ease-in-out 0.2s;
   }
 }
 
@@ -41,7 +37,6 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    transition: all ease-in-out 0.6s;
   }
 
   .camera-title {
@@ -50,6 +45,5 @@
     font-weight: 300;
     margin: 50px 0px 0px 0px;
     color: #a7a7a7;
-    transition: all ease-in-out 0.2s;
   }
 }
